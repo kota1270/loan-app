@@ -3,6 +3,7 @@
 import numpy as np
 import joblib
 import io, csv
+import os
 
 app = Flask(__name__)
 model = joblib.load('model.joblib')
